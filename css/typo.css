@@ -1,0 +1,23 @@
+@font-face{
+	font-family: myFont;
+	src: url(../fonts/cookiesmilk-regular.ttf);
+}
+body { 
+		background: #fafafa; }
+
+.container{ border: solid 1px green;
+			width: 1024px;
+			margin: 0 auto; }
+
+.heading{ font-size: 45pt;
+		  font color: #153E40;
+		  font-family: myFont;
+		  letter-spacing: 12px;
+		  text-align: center;
+		  font-weight: bold;
+
+ }
+ .deadline{ text-align: center;
+ 			font-size: 30pt;
+ 			color: #2B7B7F;
+ 			font-weight: bold; }

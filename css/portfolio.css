@@ -1,0 +1,36 @@
+@font-face {
+    font-family:cookies;
+    src: url(../fonts/cookiesmilk-regular.ttf);
+}
+
+body{
+	background: url(../images/saturn.png) no-repeat center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size:cover;
+	background-size: cover;
+}
+.container{
+	width: 40%;
+	margin: 0 auto;
+	background: rgba(63, 191, 191, 0.5);
+	border-radius: 30px;
+	padding: 50px;
+	text-align: center;
+	font-size: 35pt;
+	color: white;
+	font-weight: bold;
+	font-family: cookies; 
+
+}
+
+ul{ list-style: none; 
+
+}
+ li{ padding: 10px;
+  }
+
+li:hover{
+	font-family: cookies;
+	background: url(../images/hand-cursor-xxl.png);
+}
